@@ -20,5 +20,8 @@ header{
 nav{
     background-color: #0c0a64;
     padding: 10px;
-    
+
+}
+nav ul{
+    color: white;
 }

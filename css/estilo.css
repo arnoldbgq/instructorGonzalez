@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: content-box;
     border-color: aquamarine;
+    border-style: dashed;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

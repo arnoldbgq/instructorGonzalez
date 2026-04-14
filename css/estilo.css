@@ -58,3 +58,11 @@ article{
 article img{
     width: 500px;
 }
+aside{
+    justify-content: center;
+    flex: 1;
+    background-color: rgb(201, 201, 250);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #022442;
+}

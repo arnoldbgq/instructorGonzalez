@@ -48,3 +48,10 @@ section{
     gap: 20px;
     margin-bottom: 20px;
 }
+article{
+    flex: 2;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #022442;
+}

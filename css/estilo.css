@@ -55,3 +55,6 @@ article{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
+article img{
+    width: 500px;
+}

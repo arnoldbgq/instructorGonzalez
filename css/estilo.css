@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    border-color: aquamarine;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -18,7 +19,7 @@ header{
     background-color: white;
 }
 nav{
-    
+
     background-color: #0c0a64;
     padding: 10px;
 

@@ -68,6 +68,10 @@ article ul, ol, dl{
 article img{
     width: 500px;
 }
+article table {
+    border: 3px solid;
+    background-color: #f2f3d8;
+}
 aside{
     justify-content: center;
     flex: 1;

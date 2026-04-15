@@ -72,6 +72,9 @@ article table {
     border: 3px solid;
     background-color: #f2f3d8;
 }
+article table th, td{
+    border: 1px solid;
+}
 aside{
     justify-content: center;
     flex: 1;

@@ -1,9 +1,9 @@
 // Console.log nos sirve para depurar y probar nuestras salidas
 console.log("Hola mundo desde JavaScript");
 //alert nos sirve para mostrarle un alert al usuario
-alert("Hola Mundo. Esto es una Alerta")
+alert("Hola Mundo. Esto es una Alerta");
 
-function cambiarCarita(){
+function cambiarCarita){
     document.getElementById("carita").src="images/sad.png";
      document.getElementById("logoSenati").src="images/senati3.png";
     alert("Por que tas triste");

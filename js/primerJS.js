@@ -6,6 +6,10 @@ alert("Hola Mundo. Esto es una Alerta");
 function cambiarCarita(){
     document.getElementById("carita").src="images/sad.png";
 }
+function feliz(){
+    document.getElementById("carita").src="images/happy.jpg";
+}
+
 
 
 

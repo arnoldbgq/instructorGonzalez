@@ -16,6 +16,8 @@ function nombresNav(){
     document.getElementById("m2").textContent="Segunda Página";
     document.getElementById("m3").textContent="Tercera Página";
     document.getElementById("m4").textContent="Cuarta Página";
+    document.getElementById("m5").textContent="Quinta Página";
+    document.getElementById("m6").textContent="Sexto Página";
 }
 
 

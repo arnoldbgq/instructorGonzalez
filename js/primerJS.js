@@ -5,6 +5,7 @@ alert("Hola Mundo. Esto es una Alerta");
 
 function cambiarCarita(){
     document.getElementById("carita").src="images/sad.png";
+     document.getElementById("logoSenati").src="images/senati3.png";
     alert("Por que tas triste");
 }
 function feliz(){

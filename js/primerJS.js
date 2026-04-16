@@ -9,8 +9,13 @@ function cambiarCarita(){
 }
 function feliz(){
     document.getElementById("carita").src="images/happy.jpg";
-    
     document.getElementById("TituloJS").textContent="Ejemplo de Caritas";
+}
+function nombresNav(){
+    document.getElementById("m1").textContent="Index";
+    document.getElementById("m2").textContent="Segunda Página";
+    document.getElementById("m3").textContent="Tercera Página";
+    document.getElementById("m4").textContent="Cuarta Página";
 }
 
 

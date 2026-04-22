@@ -37,9 +37,9 @@ function suma(){
 function eje01(){
     let p1 = 10;
     let p2 = 5;
-    let p3 = 3;
+    let p3 = 15;
     let c1 = 3;
-    let c2 = 2;
+    let c2 = 18;
     let c3 = 6;
     let Stotal, total;
     Stotal = (p1*c1)+(p2*c2)+(p3*c3);

@@ -4,12 +4,11 @@
     <link rel="icon" href="images/logo.png" />
     <title>Mi Cuarta Pagina Web</title>
      <link rel="stylesheet" href="css/estilo.css">
-     <script src="js/primerJS.js">       
-     </script>
+     <script src="js/primerJS.js">   </script>
   </head>
 
   <body>
-    <header>
+    <header id = "encabezado">
        <a href="index.html">
         <img id="logoSenati" src="images/senati2.png" alt="logo senati">
       </a>
@@ -17,7 +16,7 @@
     </header>
     <nav>
      <ul>
-         <li><a id="m1" href="index.html">Inicio</a></li>
+        <li><a id="m1" href="index.html">Inicio</a></li>
         <li><a id="m2" href="segunda.html">Listas</a></li>
         <li><a id="m3" href="tercera.html">Tablas</a></li>
         <li><a id="m4" href="cuarta.html">Ejemplos de JS</a></li>
@@ -35,6 +34,7 @@
       </article>
       <article>
         <button onclick="nombresNav()">Cambiar nombres de Navegacion</button>
+        <button onclick="cambiarTitulo()">Cambiar Titulo</button>
       </article>
       <aside></aside>
     </section>

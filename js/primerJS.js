@@ -5,7 +5,7 @@ alert("Hola Mundo. Esto es una Alerta");
 
 function cambiarCarita(){
     document.getElementById("carita").src="images/sad.png";
-     document.getElementById("logoSenati").src="images/senati3.png";
+    document.getElementById("logoSenati").src="images/senati3.png";
     alert("Por que tas triste");
 }
 function feliz(){
@@ -18,7 +18,12 @@ function nombresNav(){
     document.getElementById("m3").textContent="Tercera Página";
     document.getElementById("m4").textContent="Cuarta Página";
     document.getElementById("m5").textContent="Quinta Página";
-    document.getElementById("m6").textContent="Sexto Página";
+    document.getElementById("m6").textContent="Sexta Página";
+}
+
+function cambiarTitulo(){
+    document.getElementById("titulo").textContent="Practicando JS";
+    document.getElementById("encabezado").style.background="#89cce2"
 }
 
 

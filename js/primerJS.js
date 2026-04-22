@@ -34,7 +34,23 @@ function suma(){
     let suma = num1+num2;
     alert("la suma es de" +suma);
 }
+function eje01(){
+    let p1 = 10;
+    let p2 = 5;
+    let p3 = 3;
+    let c1 = 3;
+    let c2 = 2;
+    let c3 = 6;
+    let Stotal, total;
+    Stotal = (p1*c1)+(p2*c2)+(p3*c3);
+    if(Stotal>100){
+        total = Stotal*0.95;
+    }else{
+        total = Stotal;
+    }
+    alert("El total a Pagar es de: S/."+total);
 
+}
 
 
 

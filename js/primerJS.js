@@ -45,6 +45,7 @@ function eje01(){
     Stotal = (p1*c1)+(p2*c2)+(p3*c3);
     if(Stotal>100){
         total = Stotal*0.95;
+        alert("Su compra lleva descuento");
     }else{
         total = Stotal;
     }

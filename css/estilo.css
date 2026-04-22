@@ -104,16 +104,25 @@ article img{
     margin: 10px auto;
 }
 
+/* TABLAS */
 article table {
-    border: 3px solid;
+    width: 100%;
+    border-collapse: collapse;
     background-color: #f2f3d8;
+    margin-top: 10px;
 }
+
 article table th{
     color: #f2f3d8;
     background-color: #44461e;
 }
-article table th, td{
+
+article table th, 
+article table td{
     border: 1px solid;
+    padding: 8px;
+    text-align: center;
+}
 
 /* ASIDE */
 aside{

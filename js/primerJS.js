@@ -28,6 +28,13 @@ function cambiarTitulo(){
     document.getElementById("encabezado").style.background="#89cce2"
 }
 
+function suma(){
+    let num1 = 3;
+    let num2 = 5;
+    let suma = num1+num2;
+    alert(suma);
+}
+
 
 
 

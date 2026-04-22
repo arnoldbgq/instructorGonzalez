@@ -57,7 +57,7 @@ function eje02(){
     let total = 100;
     let cuota = total/amigos;
     alert("Son "+amigos+" amigos"+ " y la cuota del total S/."+total+" es de : S/."+cuota);
-
+}
 
 
 

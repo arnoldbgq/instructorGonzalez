@@ -86,6 +86,11 @@ article dl{
     margin: 10px;
 }
 
+article dl dt{
+    font-weight: bold;
+}
+
+
 /* IMÁGENES RESPONSIVE */
 article img{
     width: 100%;

@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let resultado = document.getElementById("resultado");
 
         if(isNaN(nume1)||isNaN(nume2)){
-            alert("Ingresa un numero pe!")
+            alert("Ingresa un numero pe!");
             resultado.textContent = "Ingrese números válidos";
             return;
         }
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function(){
       
         if(isNaN(salario)||isNaN(horasT)){
             VariableSalida.textContent = "Ingrese números válidos";
-            alert("Ingresa un numero pe!")
+            alert("Ingresa un numero pe!");
             return;
         }
         if(horasT>40){

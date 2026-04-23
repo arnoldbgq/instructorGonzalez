@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function(){
           let total = tBase + (distancia*adic);
           let salidaV = document.getElementById("pagar");
 
-          if(isNaN(distancia){
+          if(isNaN(distancia)){
             VariableSalida.textContent = "Ingrese números válidos";
             alert("Ingresa un numero pe!");
             return;

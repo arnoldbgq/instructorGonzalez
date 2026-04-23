@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 res = nume1*nume2;
                 break;
             case "div":
-
+                alert("haganlo Ustedes");
                 break;
             default:
                 break;

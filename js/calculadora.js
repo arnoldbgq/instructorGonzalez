@@ -34,6 +34,24 @@ document.addEventListener("DOMContentLoaded", function(){
 
     resultado.textContent = "Resultado es "+res;
 
-    });
+    });/*
+    //ejercicio 04
+   document.getElementById("formEje04").addEventListener("submit", function(e){
+        e.preventDefault();// evita que el formulario me vote de la pagina
+
+        let salario = parseFloat(document.getElementById("salario").value);
+        let horasT = parseFloat(document.getElementById("horasT").value);
+        let horasE;
+        let salarioE;
+        let total;
+        let VariableSalida = document.getElementById("salida");
+
+      
+        if(isNaN(nume1)||isNaN(nume2)){
+            resultado.textContent = "Ingrese números válidos";
+            return;
+        }
+        });
+        */
 
 })

@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let VariableSalida = document.getElementById("salida");
       
         if(isNaN(salario)||isNaN(horasT)){
-            resultado.textContent = "Ingrese números válidos";
+            VariableSalida.textContent = "Ingrese números válidos";
             alert("Ingresa un numero pe!")
             return;
         }

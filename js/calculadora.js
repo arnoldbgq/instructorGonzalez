@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function(){
             VariableSalida.textContent = "Ingrese números válidos";
             alert("Ingresa un numero pe!");
             return;
-        }
+          }
         salidaV.textContent= "Total a Pagar por "+distancia +"km. es de S/."+ total;
 
         });

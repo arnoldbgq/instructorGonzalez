@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
- 
+    //EJEMPLO CALCULADORA
     document.getElementById("formCalculadora").addEventListener("submit", function(e){
         e.preventDefault();// evita que el formulario me vote de la pagina
 
@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let resultado = document.getElementById("resultado");
 
         if(isNaN(nume1)||isNaN(nume2)){
+            alert("Ingresa un numero pe!")
             resultado.textContent = "Ingrese números válidos";
             return;
         }
@@ -48,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function(){
       
         if(isNaN(salario)||isNaN(horasT)){
             resultado.textContent = "Ingrese números válidos";
+            alert("Ingresa un numero pe!")
             return;
         }
         if(horasT>40){
@@ -61,6 +63,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
         VariableSalida.textContent = "Su sueldo a pagar es de S/."+sueldo;
         });
-        
-
+     /*   
+        document.getElementById("formEje04").addEventListener("submit", function(e){
+        e.preventDefault();
+            //AQUI ES DONDE RESUELVES TU EJERCICIO
+        });
+*/
 })

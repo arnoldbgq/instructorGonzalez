@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-    document.getElementById("formCalculadora").addEventListener("submit", function(e)){
+    document.getElementById("formCalculadora").addEventListener("submit", function(e){
         e.preventDefault();// evita que el formulario me vote de la pagina
 
         let nume1 = parseFloat(document.getElementById("numero1").value);
@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function(){
         if(isNaN(nume1)||isNaN(nume2)){
             resultado.textContent = "Ingrese números válidos";
         }
-    }
+    });
 
 })

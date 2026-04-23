@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function(){
         e.preventDefault();
           let distancia = parseFloat(document.getElementById("distancia").value);
           let tBase = 10;
-          let adic = #;
+          let adic = 3;
           let total = tBase + (distancia*adic);
           let salidaV = document.getElementById("pagar");
 

@@ -54,6 +54,14 @@ nav ul li a{
     border-radius: 5px;
     transition: all 0.3s ease; /* corregido */
 }
+#Entregable{
+     text-decoration: none;
+    color: rgb(206, 206, 206);
+    background-color: #1a8561;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
 
 nav ul li a:hover{
     background-color: #393888;
